@@ -1,12 +1,14 @@
 body{
-    margin: 0;
+    margin-right: -30px;
+    margin-left: 0;
+    margin-top: 0;
 }
 .navbar{
     background-color:black;
     padding: 30px;
 }
 .nav1{
-    word-spacing: 20px;
+    word-spacing: 10px;
     text-align: center;
     
 }
@@ -14,9 +16,9 @@ body{
     text-decoration: none;
     font-family: "Times New Roman", Times, serif;
     color: white;
-    font-size: 300px;
-    font-size: 20px;
-    font-size: 1.5em;
+    font-size: 100px;
+    font-size: 10px;
+    font-size: 1em;
 }
 #connect-a{
     text-decoration: none;
@@ -25,18 +27,17 @@ body{
     border-radius: 20px;
     float: right;
     margin-top: -10px;
-    font-weight:600;
+    font-weight:200;
     background-color:black;
     display: flex;
     color:white;
     border: 2px solid white;
-    inline-size: 100px;
+    inline-size: 50px;
     justify-content: center;
-    font-size: 1em;
 }
 #img1{
     width: 75px;
-    height: 80px;
+    height: 75px;
     float: left;
     margin-top: -30px;
     color: aliceblue;
@@ -51,14 +52,14 @@ body{
     font-weight: 900;
     text-align: center;
     border-radius: 20px;
-    font-size: 3em;
+    font-size: 2em;
     border:2px solid black;
     padding: 30px;
 }
 .copy{
     background-color: black;
     height: 400px;
-    margin-top: 290px;
+    margin-top: 480px;
 }
 .copy .navv{
     margin-top: 20px;
