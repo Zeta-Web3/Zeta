@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    width: 390px;
+}
+.navbar{
+    background-color:black;
+    padding: 30px;
+}
+.nav1{
+    word-spacing: 10px;
+    text-align: center;
+    
+}
+#link{
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 100px;
+    font-size: 10px;
+    font-size: 1em;
+}
+#connect-a{
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    border-radius: 20px;
+    float: right;
+    margin-top: -10px;
+    font-weight:200;
+    background-color:black;
+    display: flex;
+    color:white;
+    border: 2px solid white;
+    inline-size: 50px;
+    justify-content: center;
+}
+#img1{
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-top: -30px;
+    color: aliceblue;
+}
+.copy{
+    background-color: black;
+    height: 400px;
+    margin-top: 480px;
+}
+.navv{
+    margin-top: -12px;
+    position: absolute;
+    left: 500px;
+    text-align: center;
+}
+.navv a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 2px;
+    padding: 8px;
+}
+.navv a:hover{
+    text-decoration:underline;
+}
+#p1{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: -250px;
+
+}
+#link-b{
+    top: 20px;
+}
+#sh1{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+#link2{
+    color: aliceblue;
+    text-decoration: none;
+}
+#link2:hover{
+    text-decoration: underline;
+}
+#victor{
+    text-align: center;
+}
+.verticalline{
+    height: 200px;
+    border-left: 1px solid whitesmoke;
+    position: absolute;
+    left: 640px;
+}
+.navc{
+    margin-top: -12px;
+    position: absolute;
+    left: 700px;
+    text-align: center;
+}
+.navc a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 2px;
+    padding: 8px;
+}
+.navc a:hover{
+    text-decoration:underline;
+}
+#link-c{
+    top: 20px;
+}
+#victor2{
+    margin-top: -30px;
+}
+.pdt{
+    margin: 5px;
+    text-align: center;
+    width: 315px;
+    height: 600px;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#pdti1{
+    width: 20px;
+    height: 40px;
+}
+#pdth1{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#pdtb1{
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 310px;
+    height: 50px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+#pdtb1:hover{
+    background-color: rgb(247, 241, 241);
+}
+#login{
+    position: relative;
+}
+#login::after{
+    float: left;
+    content:"|";
+    position: absolute;
+    background-color:rgb(247, 241, 241);
+    right: 118px;
+    width: 14px;
+    color: rgb(247, 241, 241);
+    animation: typewriter steps(4) 0.6s infinite ;
+}
+@keyframes typewriter{
+    to{
+        width: 0px;
+    }
+}
+
