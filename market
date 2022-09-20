@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Market</title>
+</head>
+<body id="Bodys">
+    <div class="navbar">
+        <nav class="nav1">
+            <a id="link" href="#">Create</a>
+            <a id="link" href="http://localhost:5500">Home</a>
+            <a id="link" href="#">Market</a>
+            <a id="connect-a" href="#">Connect</a>
+            <a href="#">
+                <img id="img1" src="../image/img1.png" alt="Prewie">
+            </a>
+        </nav>
+    </div>
+
+    <div class="product">
+        <div class="pdt">
+            <h4 id="pdth1">Name</h4>
+            <img id="pdti1" src="../image/img1.png" alt="">
+            <p id="pdtp1">Prise</p>
+            <button style="cursor:pointer ;" onclick="pdtb()" id="pdtb1">Buy</button>
+        </div>
+    </div>
+
+    <div class="copy">
+        <p style="color: aliceblue; " id="sh1"><a id="link2" href="https://t.me/zeta_web3">
+        <span id="telegram">
+            <i class="fa fa-telegram"></i>
+        </span></a>
+        <p style="color: aliceblue;" id="victor">____________________________________________________</p>
+        <nav class="navv">
+            <h1 style="color: aliceblue;">Sites</h1>
+            <p style="color:white;" id="victor2">_____________</p>
+            <a id="link-b" href="#">Create</a><br><br>
+            <a id="link-b" href="http://localhost:5500">Home</a><br><br>
+            <a id="link-b" href="#">Market</a>
+        </nav>
+        <p class="verticalline"></p>
+        <nav class="navc">
+            <h1 style="color: aliceblue;">Contact</h1>
+            <p style="color:white;" id="victor2">_____________</p>
+            <a id="link-c" href="#">Telefone</a>
+            <p style="color:white;   font-size:15px ; " >+4917626588176</p>
+            <a id="link-c" href="atlad.ats@gmail.com">Email</a><br>
+            <p style="color:white;   font-size:15px ;" >atlad.ats@gmail.com</p>
+            <a id="link-c" href="#">Fax</a>
+        </nav>
+        <p id="p1">Copy Right</p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
